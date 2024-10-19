@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    
+    <ImageView
+        android:id="@+id/welcomeImage"
+        android:layout_width="363dp"
+        android:layout_height="370dp"
+        app:srcCompat="@drawable/welcome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discover Your \nDream Job here"
+        android:textSize="35dp"
+        android:textColor="#1F41BB"
+        android:textAlignment="center"
+        android:lineHeight="52.5dp"
+        android:textFontWeight="600"
+        android:fontFamily="poppins"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="75dp"/>
+    <TextView
+        android:id="@+id/subText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore all the existing job roles based on your \ninterest and study major"
+        android:textSize="14dp"
+        android:textColor="#000000"
+        android:lineHeight="21dp"
+        android:textFontWeight="400"
+        android:fontFamily="poppins"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="55dp"
+        android:textAlignment="center"
+      />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cornerRadius="10dp"
+        android:backgroundTint="#1F41BB"
+        android:layout_marginTop="650dp"
+        android:paddingHorizontal="50dp"
+        android:layout_marginLeft="25dp"
+        android:textFontWeight="300"
+        android:paddingVertical="13dp"/>
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cornerRadius="10dp"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="13dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="650dp"/>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

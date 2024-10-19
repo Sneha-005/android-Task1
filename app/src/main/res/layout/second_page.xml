@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login here"
+        android:textSize="35dp"
+        android:textColor="#1F41BB"
+        android:textAlignment="center"
+        android:lineHeight="45dp"
+        android:textFontWeight="700"
+        android:fontFamily="poppins"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="110dp"/>
+    <TextView
+        android:id="@+id/subText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome back you’ve \nbeen missed!"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:lineHeight="30dp"
+        android:textFontWeight="600"
+        android:fontFamily="poppins"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="70dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot your password?"
+        android:textSize="14dp"
+        android:textColor="#1F41BB"
+        android:textAlignment="center"
+        android:lineHeight="21dp"
+        android:textFontWeight="600"
+        android:fontFamily="poppins"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="205dp"/>
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cornerRadius="10dp"
+        android:backgroundTint="#1F41BB"
+        android:layout_marginTop="540dp"
+        android:paddingHorizontal="132dp"
+        android:layout_marginLeft="25dp"
+        android:textFontWeight="300"
+        android:paddingVertical="13dp"/>
+
+    <TextView
+        android:id="@+id/new_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create new account"
+        android:textSize="14dp"
+        android:textColor="#000000"
+        android:lineHeight="21dp"
+        android:textFontWeight="600"
+        android:fontFamily="poppins"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="55dp"/>
+
+    <TextView
+        android:id="@+id/option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or continue with"
+        android:textSize="14dp"
+        android:textColor="#1F41BB"
+        android:textAlignment="center"
+        android:lineHeight="21dp"
+        android:textFontWeight="600"
+        android:fontFamily="poppins"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="75dp"/>
+
+    <Button
+        android:id="@+id/google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:backgroundTint="#ECECEC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cornerRadius="10dp"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="15dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="650dp"/>
+    <Button
+        android:id="@+id/facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:backgroundTint="#ECECEC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cornerRadius="10dp"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="15dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="650dp"/>
+
+    <Button
+        android:id="@+id/apple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:backgroundTint="#ECECEC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cornerRadius="10dp"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="15dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="650dp"/>
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
